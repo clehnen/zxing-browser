@@ -4,20 +4,20 @@
 export { BarcodeFormat } from '@zxing/library';
 
 // common
-export * from './common/HTMLCanvasElementLuminanceSource';
-export * from './common/HTMLVisualMediaElement';
-export * from './common/IScannerControls';
+export {HTMLCanvasElementLuminanceSource} from './common/HTMLCanvasElementLuminanceSource';
+export {HTMLVisualMediaElement} from './common/HTMLVisualMediaElement';
+export {IScannerControls} from './common/IScannerControls';
 
 // readers
-export * from './readers/BrowserAztecCodeReader';
-export * from './readers/BrowserMultiFormatOneDReader';
-export * from './readers/BrowserCodeReader';
-export * from './readers/BrowserDatamatrixCodeReader';
-export * from './readers/BrowserMultiFormatReader';
-export * from './readers/BrowserPDF417Reader';
-export * from './readers/BrowserQRCodeReader';
-export * from './readers/IBrowserCodeReaderOptions';
+export {BrowserAztecCodeReader} from './readers/BrowserAztecCodeReader';
+export {BrowserMultiFormatOneDReader} from './readers/BrowserMultiFormatOneDReader';
+export {BrowserCodeReader} from './readers/BrowserCodeReader';
+export {BrowserDatamatrixCodeReader} from './readers/BrowserDatamatrixCodeReader';
+export {BrowserMultiFormatReader} from './readers/BrowserMultiFormatReader';
+export {BrowserPDF417Reader} from './readers/BrowserPDF417Reader';
+export {BrowserQRCodeReader} from './readers/BrowserQRCodeReader';
+export {IBrowserCodeReaderOptions} from './readers/IBrowserCodeReaderOptions';
 
 // writers
-export * from './writers/BrowserCodeSvgWriter';
-export * from './writers/BrowserQRCodeSvgWriter';
+export {BrowserCodeSvgWriter} from './writers/BrowserCodeSvgWriter';
+export {BrowserQRCodeSvgWriter} from './writers/BrowserQRCodeSvgWriter';

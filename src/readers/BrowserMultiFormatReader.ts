@@ -15,7 +15,7 @@ export class BrowserMultiFormatReader extends BrowserCodeReader {
     this.reader.setHints(this.hints);
   }
 
-  protected readonly reader: MultiFormatReader;
+  declare protected readonly reader: MultiFormatReader;
 
   public constructor(
     hints?: Map<DecodeHintType, any>,
