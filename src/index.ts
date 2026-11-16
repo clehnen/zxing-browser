@@ -5,8 +5,8 @@ export { BarcodeFormat } from '@zxing/library';
 
 // common
 export {HTMLCanvasElementLuminanceSource} from './common/HTMLCanvasElementLuminanceSource';
-export {HTMLVisualMediaElement} from './common/HTMLVisualMediaElement';
-export {IScannerControls} from './common/IScannerControls';
+export type {HTMLVisualMediaElement} from './common/HTMLVisualMediaElement';
+export type {IScannerControls} from './common/IScannerControls';
 
 // readers
 export {BrowserAztecCodeReader} from './readers/BrowserAztecCodeReader';
@@ -16,7 +16,7 @@ export {BrowserDatamatrixCodeReader} from './readers/BrowserDatamatrixCodeReader
 export {BrowserMultiFormatReader} from './readers/BrowserMultiFormatReader';
 export {BrowserPDF417Reader} from './readers/BrowserPDF417Reader';
 export {BrowserQRCodeReader} from './readers/BrowserQRCodeReader';
-export {IBrowserCodeReaderOptions} from './readers/IBrowserCodeReaderOptions';
+export type {IBrowserCodeReaderOptions} from './readers/IBrowserCodeReaderOptions';
 
 // writers
 export {BrowserCodeSvgWriter} from './writers/BrowserCodeSvgWriter';

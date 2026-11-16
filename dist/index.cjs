@@ -2,8 +2,6 @@
 
 var library = require('@zxing/library');
 var HTMLCanvasElementLuminanceSource = require('./common/HTMLCanvasElementLuminanceSource');
-var HTMLVisualMediaElement = require('./common/HTMLVisualMediaElement');
-var IScannerControls = require('./common/IScannerControls');
 var BrowserAztecCodeReader = require('./readers/BrowserAztecCodeReader');
 var BrowserMultiFormatOneDReader = require('./readers/BrowserMultiFormatOneDReader');
 var BrowserCodeReader = require('./readers/BrowserCodeReader');
@@ -11,7 +9,6 @@ var BrowserDatamatrixCodeReader = require('./readers/BrowserDatamatrixCodeReader
 var BrowserMultiFormatReader = require('./readers/BrowserMultiFormatReader');
 var BrowserPDF417Reader = require('./readers/BrowserPDF417Reader');
 var BrowserQRCodeReader = require('./readers/BrowserQRCodeReader');
-var IBrowserCodeReaderOptions = require('./readers/IBrowserCodeReaderOptions');
 var BrowserCodeSvgWriter = require('./writers/BrowserCodeSvgWriter');
 var BrowserQRCodeSvgWriter = require('./writers/BrowserQRCodeSvgWriter');
 
@@ -24,14 +21,6 @@ Object.defineProperty(exports, "BarcodeFormat", {
 Object.defineProperty(exports, "HTMLCanvasElementLuminanceSource", {
   enumerable: true,
   get: function () { return HTMLCanvasElementLuminanceSource.HTMLCanvasElementLuminanceSource; }
-});
-Object.defineProperty(exports, "HTMLVisualMediaElement", {
-  enumerable: true,
-  get: function () { return HTMLVisualMediaElement.HTMLVisualMediaElement; }
-});
-Object.defineProperty(exports, "IScannerControls", {
-  enumerable: true,
-  get: function () { return IScannerControls.IScannerControls; }
 });
 Object.defineProperty(exports, "BrowserAztecCodeReader", {
   enumerable: true,
@@ -60,10 +49,6 @@ Object.defineProperty(exports, "BrowserPDF417Reader", {
 Object.defineProperty(exports, "BrowserQRCodeReader", {
   enumerable: true,
   get: function () { return BrowserQRCodeReader.BrowserQRCodeReader; }
-});
-Object.defineProperty(exports, "IBrowserCodeReaderOptions", {
-  enumerable: true,
-  get: function () { return IBrowserCodeReaderOptions.IBrowserCodeReaderOptions; }
 });
 Object.defineProperty(exports, "BrowserCodeSvgWriter", {
   enumerable: true,
